@@ -1,0 +1,13 @@
+2026-08-26 21:35:47 - INFO - Bronze pipeline started successfully
+2026-08-26 21:35:47 - INFO - Sending requests to https://companiesmarketcap.com/
+2026-08-26 21:35:47 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:35:49 - DEBUG - https://companiesmarketcap.com:443 "GET / HTTP/1.1" 200 27563
+2026-08-26 21:35:49 - INFO - Response status code success - 200
+2026-08-26 21:35:50 - INFO - Inner pages url extracted , Length :16
+2026-08-26 21:35:50 - INFO - Data srcaping Started
+2026-08-26 21:35:50 - INFO - 1 - url
+2026-08-26 21:35:50 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:35:52 - DEBUG - https://companiesmarketcap.com:443 "GET / HTTP/1.1" 200 27562
+2026-08-26 21:35:52 - INFO - Download data Request send
+2026-08-26 21:35:52 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:35:54 - DEBUG - https://companiesmarketcap.com:443 "GET /?download=csv HTTP/1.1" 200 None

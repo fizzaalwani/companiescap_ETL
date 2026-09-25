@@ -1,0 +1,157 @@
+2026-08-26 21:35:47 - INFO - Bronze pipeline started successfully
+2026-08-26 21:35:47 - INFO - Sending requests to https://companiesmarketcap.com/
+2026-08-26 21:35:47 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:35:49 - DEBUG - https://companiesmarketcap.com:443 "GET / HTTP/1.1" 200 27563
+2026-08-26 21:35:49 - INFO - Response status code success - 200
+2026-08-26 21:35:50 - INFO - Inner pages url extracted , Length :16
+2026-08-26 21:35:50 - INFO - Data srcaping Started
+2026-08-26 21:35:50 - INFO - 1 - url
+2026-08-26 21:35:50 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:35:52 - DEBUG - https://companiesmarketcap.com:443 "GET / HTTP/1.1" 200 27562
+2026-08-26 21:35:52 - INFO - Download data Request send
+2026-08-26 21:35:52 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:35:54 - DEBUG - https://companiesmarketcap.com:443 "GET /?download=csv HTTP/1.1" 200 None
+2026-08-26 21:38:56 - INFO - Data srcaping Started
+2026-08-26 21:38:56 - INFO - 1 - url
+2026-08-26 21:38:56 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:38:58 - DEBUG - https://companiesmarketcap.com:443 "GET / HTTP/1.1" 200 27553
+2026-08-26 21:38:58 - INFO - Download data Request send
+2026-08-26 21:38:58 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:00 - DEBUG - https://companiesmarketcap.com:443 "GET /?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:01 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_market_cap.csv
+2026-08-26 21:39:01 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_market_cap.csv
+2026-08-26 21:39:01 - INFO - 2 - url
+2026-08-26 21:39:01 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:03 - DEBUG - https://companiesmarketcap.com:443 "GET /most-profitable-companies/ HTTP/1.1" 200 27324
+2026-08-26 21:39:03 - INFO - Download data Request send
+2026-08-26 21:39:03 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:05 - DEBUG - https://companiesmarketcap.com:443 "GET /most-profitable-companies/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:07 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_earnings_(TTM).csv
+2026-08-26 21:39:07 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_earnings_(TTM).csv
+2026-08-26 21:39:07 - INFO - 3 - url
+2026-08-26 21:39:07 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:09 - DEBUG - https://companiesmarketcap.com:443 "GET /largest-companies-by-revenue/ HTTP/1.1" 200 27821
+2026-08-26 21:39:10 - INFO - Download data Request send
+2026-08-26 21:39:10 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:12 - DEBUG - https://companiesmarketcap.com:443 "GET /largest-companies-by-revenue/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:13 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_revenue_(TTM).csv
+2026-08-26 21:39:13 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_revenue_(TTM).csv
+2026-08-26 21:39:13 - INFO - 4 - url
+2026-08-26 21:39:13 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:15 - DEBUG - https://companiesmarketcap.com:443 "GET /largest-companies-by-number-of-employees/ HTTP/1.1" 200 27453
+2026-08-26 21:39:16 - INFO - Download data Request send
+2026-08-26 21:39:16 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:18 - DEBUG - https://companiesmarketcap.com:443 "GET /largest-companies-by-number-of-employees/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:18 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_employees_count.csv
+2026-08-26 21:39:18 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_employees_count.csv
+2026-08-26 21:39:18 - INFO - 5 - url
+2026-08-26 21:39:18 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:20 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-pe-ratio/ HTTP/1.1" 200 28227
+2026-08-26 21:39:21 - INFO - Download data Request send
+2026-08-26 21:39:21 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:22 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-pe-ratio/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:23 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_P_E_ratio_(TTM).csv
+2026-08-26 21:39:23 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_P_E_ratio_(TTM).csv
+2026-08-26 21:39:23 - INFO - 6 - url
+2026-08-26 21:39:23 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:25 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-dividend-yield/ HTTP/1.1" 200 27808
+2026-08-26 21:39:26 - INFO - Download data Request send
+2026-08-26 21:39:26 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:27 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-dividend-yield/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:28 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_Dividend_yield_(TTM)_.csv
+2026-08-26 21:39:28 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_Dividend_yield_(TTM)_.csv
+2026-08-26 21:39:28 - INFO - 7 - url
+2026-08-26 21:39:28 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:30 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-market-cap-gain/ HTTP/1.1" 200 27235
+2026-08-26 21:39:30 - DEBUG - Download file option not available
+2026-08-26 21:39:30 - INFO - 8 - url
+2026-08-26 21:39:30 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:32 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-market-cap-loss/ HTTP/1.1" 200 26864
+2026-08-26 21:39:33 - DEBUG - Download file option not available
+2026-08-26 21:39:33 - INFO - 9 - url
+2026-08-26 21:39:33 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:35 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-operating-margin/ HTTP/1.1" 200 28299
+2026-08-26 21:39:35 - INFO - Download data Request send
+2026-08-26 21:39:35 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:37 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-operating-margin/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:39 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_operating_margin_(TTM).csv
+2026-08-26 21:39:39 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_operating_margin_(TTM).csv
+2026-08-26 21:39:39 - INFO - 10 - url
+2026-08-26 21:39:39 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:41 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-cost-to-borrow/ HTTP/1.1" 200 27427
+2026-08-26 21:39:41 - INFO - Download data Request send
+2026-08-26 21:39:41 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:43 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-cost-to-borrow/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:44 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_cost_to_borrow.csv
+2026-08-26 21:39:44 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_cost_to_borrow.csv
+2026-08-26 21:39:44 - INFO - 11 - url
+2026-08-26 21:39:44 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:45 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-total-assets/ HTTP/1.1" 200 27757
+2026-08-26 21:39:46 - INFO - Download data Request send
+2026-08-26 21:39:46 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:47 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-total-assets/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:49 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_assets.csv
+2026-08-26 21:39:49 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_assets.csv
+2026-08-26 21:39:49 - INFO - 12 - url
+2026-08-26 21:39:49 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:50 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-net-assets/ HTTP/1.1" 200 27664
+2026-08-26 21:39:51 - INFO - Download data Request send
+2026-08-26 21:39:51 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:53 - DEBUG - https://companiesmarketcap.com:443 "GET /top-companies-by-net-assets/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:39:55 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_net_assets.csv
+2026-08-26 21:39:55 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_net_assets.csv
+2026-08-26 21:39:55 - INFO - 13 - url
+2026-08-26 21:39:55 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:57 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-liabilities/ HTTP/1.1" 200 27804
+2026-08-26 21:39:57 - INFO - Download data Request send
+2026-08-26 21:39:57 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:39:59 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-liabilities/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:40:01 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_liabilities.csv
+2026-08-26 21:40:01 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_liabilities.csv
+2026-08-26 21:40:01 - INFO - 14 - url
+2026-08-26 21:40:01 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:40:03 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-debt/ HTTP/1.1" 200 27915
+2026-08-26 21:40:04 - INFO - Download data Request send
+2026-08-26 21:40:04 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:40:06 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-debt/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:40:07 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_debt.csv
+2026-08-26 21:40:07 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_debt.csv
+2026-08-26 21:40:07 - INFO - 15 - url
+2026-08-26 21:40:07 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:40:09 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-cash-on-hand/ HTTP/1.1" 200 28075
+2026-08-26 21:40:10 - INFO - Download data Request send
+2026-08-26 21:40:10 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:40:11 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-the-highest-cash-on-hand/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:40:13 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_cash_on_hand.csv
+2026-08-26 21:40:13 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_total_cash_on_hand.csv
+2026-08-26 21:40:13 - INFO - 16 - url
+2026-08-26 21:40:13 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:40:14 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-lowest-pb-ratio/ HTTP/1.1" 200 26561
+2026-08-26 21:40:15 - INFO - Download data Request send
+2026-08-26 21:40:15 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-26 21:40:16 - DEBUG - https://companiesmarketcap.com:443 "GET /companies-with-lowest-pb-ratio/?download=csv HTTP/1.1" 200 None
+2026-08-26 21:40:18 - INFO - Status Code200 - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_P_B_ratio.csv
+2026-08-26 21:40:18 - INFO - Downloading file - C:\Users\fizza\OneDrive\Desktop\data_engineering\companies_cap_ETL\Bronze\2026-08-26\companies_average_P_B_ratio.csv
+2026-08-26 21:40:18 - INFO - Bronze pipeline completed successfully
+2026-08-26 22:11:43 - DEBUG - Using selector: SelectSelector
+2026-08-26 22:11:43 - ERROR - No such comm target registered: jupyter.widget.control
+2026-08-26 22:11:43 - WARNING - No such comm: 0940d433-e303-404a-a6a9-f4e98b5ca51e
+2026-08-26 22:11:43 - DEBUG - Current comms: []
+2026-08-26 22:16:53 - INFO - Silver pipeline started successfully
+2026-08-26 22:17:37 - INFO - Snapshots added
+2026-08-26 22:17:44 - WARNING - Some companies have missing symbol
+2026-08-26 22:18:37 - INFO - Silver transformation pipeline ended sucessfully
+2026-08-26 22:27:59 - INFO - Silver pipeline started successfully
+2026-08-26 22:28:00 - INFO - Snapshots added
+2026-08-26 22:28:00 - INFO - Silver transformation pipeline ended sucessfully
+2026-08-26 22:28:45 - INFO - Snapshots added
+2026-08-26 22:28:45 - WARNING - Some companies have missing symbol
+2026-08-26 22:28:45 - INFO - Silver transformation pipeline ended sucessfully
+2026-08-27 07:07:31 - DEBUG - Using selector: SelectSelector
+2026-08-27 07:07:31 - ERROR - No such comm target registered: jupyter.widget.control
+2026-08-27 07:07:31 - WARNING - No such comm: 6dc07378-ec59-423b-a471-8bcfaa5c92ed
+2026-08-27 07:07:31 - DEBUG - Current comms: []
+2026-08-27 13:34:02 - DEBUG - Using selector: SelectSelector
+2026-08-27 13:34:02 - ERROR - No such comm target registered: jupyter.widget.control
+2026-08-27 13:34:02 - WARNING - No such comm: 6371b0eb-91ce-4463-81c2-238f8d207caf
+2026-08-27 13:34:02 - DEBUG - Current comms: []

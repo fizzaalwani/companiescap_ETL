@@ -1,0 +1,3 @@
+2026-08-25 19:37:04 - DEBUG - Pipeline started successfully
+2026-08-25 19:37:05 - DEBUG - Starting new HTTPS connection (1): companiesmarketcap.com:443
+2026-08-25 19:37:07 - DEBUG - https://companiesmarketcap.com:443 "GET / HTTP/1.1" 200 27470
